@@ -26,9 +26,7 @@ let initKey = {};
 
 const Intl = {
   //初始化国际化
-  init: (currentLocale) => {
-    debugger;
-
+  init: (currentLocale = '', zhList = []) => {
     //初始化国际化参数-增强代码可读性
     initKey = {};
 
@@ -41,7 +39,11 @@ const Intl = {
     //国际化所需KEY
     const intlKeyList = [];
 
-    locales?.zh_CN?.zh_CN_List?.forEach?.((value, i) => {
+    if (!Array.isArray(zhList)) {
+      console.error('Intl组件：init传入的国际化数据不是数组');
+    }
+
+    zhList?.concat(locales?.zh_CN?.zh_CN_List)?.forEach?.((value, i) => {
       const key = `t_${i}`;
 
       intlKeyList.push(key);
