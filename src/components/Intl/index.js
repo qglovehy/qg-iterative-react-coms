@@ -43,7 +43,10 @@ const Intl = {
       console.error('Intl组件：init传入的国际化数据不是数组');
     }
 
-    locales?.zh_CN?.zh_CN_List?.concat(zhList)?.forEach?.((value, i) => {
+    //合并项目自定义国际化文字
+    locales.zh_CN.zh_CN_List = locales.zh_CN.zh_CN_List.concat(zhList);
+
+    locales?.zh_CN?.zh_CN_List?.forEach?.((value, i) => {
       const key = `t_${i}`;
 
       intlKeyList.push(key);
