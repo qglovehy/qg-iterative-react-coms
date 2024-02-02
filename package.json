@@ -1,7 +1,7 @@
 {
   "name": "qg-react-components",
   "main": "lib/index.js",
-  "version": "3.0.17",
+  "version": "3.0.18",
   "description": "React通用组件库，内测中",
   "scripts": {
     "upgrade:qgtools": "yarn upgrade qgtools",
