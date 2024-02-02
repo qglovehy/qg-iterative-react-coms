@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="314895c7-903d-440b-8f7e-6711509f10bd" name="更改" comment="" />
+=======
+    <list default="true" id="314895c7-903d-440b-8f7e-6711509f10bd" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/assets/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/assets/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/BaseList/Components/EditTableListBody/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/BaseList/Components/EditTableListBody/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/BaseList/Components/EditTableListBody/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/BaseList/Components/EditTableListBody/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/BaseList/Components/ListBody/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/BaseList/Components/ListBody/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/BaseList/Components/ListBody/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/BaseList/Components/ListBody/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/BaseList/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/BaseList/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/BaseList/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/BaseList/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/BreadcrumbNav/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/BreadcrumbNav/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/BreadcrumbNav/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/BreadcrumbNav/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/ConditionalRender/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/ConditionalRender/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/ConditionalRender/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/ConditionalRender/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/DriverGroup/Components/Divider/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/DriverGroup/Components/Divider/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/DriverGroup/Components/Divider/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/DriverGroup/Components/Divider/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/DriverGroup/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/DriverGroup/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/DriverGroup/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/DriverGroup/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/FormComponents/Components/CheckBox/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/FormComponents/Components/CheckBox/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/FormComponents/Components/CheckBoxAll/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/FormComponents/Components/CheckBoxAll/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/FormComponents/Components/Radio/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/FormComponents/Components/Radio/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/FormComponents/Components/RadioButton/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/FormComponents/Components/RadioButton/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/FormComponents/Components/Select/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/FormComponents/Components/Select/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/FormComponents/Components/SelectAll/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/FormComponents/Components/SelectAll/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/FormComponents/Components/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/FormComponents/Components/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/FormComponents/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/FormComponents/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/FormComponents/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/FormComponents/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/FunctionControl/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/FunctionControl/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/FunctionControl/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/FunctionControl/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/HistoryBack/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/HistoryBack/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/HistoryBack/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/HistoryBack/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/Img/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/Img/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/Img/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/Img/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/Intl/Components/IntlDropdown/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/Intl/Components/IntlDropdown/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/Intl/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/Intl/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/Intl/locales/en_US.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/Intl/locales/en_US.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/Intl/locales/zh_CN.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/Intl/locales/zh_CN.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/Pagination/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/Pagination/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/Pagination/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/Pagination/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/ProtectedButton/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/ProtectedButton/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/ProtectedButton/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/ProtectedButton/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/RenderDom/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/RenderDom/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/RenderDom/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/RenderDom/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/SearchForm/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/SearchForm/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/SearchForm/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/SearchForm/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/Svg/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/Svg/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/Svg/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/Svg/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/ThemeSwitcher/Components/ConfigDrawer/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/ThemeSwitcher/Components/ConfigDrawer/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/ThemeSwitcher/Components/ConfigDrawer/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/ThemeSwitcher/Components/ConfigDrawer/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/ThemeSwitcher/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/ThemeSwitcher/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/UnNormalCase/Error_403/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/UnNormalCase/Error_403/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/UnNormalCase/Error_404/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/UnNormalCase/Error_404/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/UnNormalCase/Error_500/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/UnNormalCase/Error_500/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/react-dom.production.min.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/react-dom.production.min.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/react.production.min.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/react.production.min.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/wang-editor-5.1.23.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/wang-editor-5.1.23.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/wang-editor-css.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/wang-editor-css.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/wang-editor-react-1.0.6.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/wang-editor-react-1.0.6.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/wang-editor-view-css.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/WangEditorFrame/editor-utils/wang-editor-view-css.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/WangEditorFrame/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/WangEditorFrame/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/WangEditorFrame/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/WangEditorFrame/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hooks/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/hooks/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hooks/useMediaQuery.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/hooks/useMediaQuery.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hooks/useSetState.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/hooks/useSetState.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.js.LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store/counter.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store/counter.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/dictionaryData.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/dictionaryData.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+>>>>>>> ea40a2739812ea6f95d40b55bc0f78b151a1e94d
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2bRJDOXCOjCu7CIpJPdVt0GHYtc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Desktop/qg-iterative-react-coms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "D:\\Desktop\\qg-iterative-react-coms\\node_modules\\prettier",
+    "ts.external.directory.path": "D:\\Desktop\\qg-iterative-react-coms\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/qg-iterative-react-coms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Desktop\\qg-iterative-react-coms\\node_modules\\prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Desktop\\qg-iterative-react-coms\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> ea40a2739812ea6f95d40b55bc0f78b151a1e94d
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\qg-iterative-react-coms" />
+      <recent name="D:\Desktop\qg-iterative-react-coms\node_modules\qgbuild\src" />
+      <recent name="D:\Desktop\qg-iterative-react-coms\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+<<<<<<< HEAD
+    <configuration name="build" type="js.build_tools.npm" temporary="true">
+=======
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+>>>>>>> ea40a2739812ea6f95d40b55bc0f78b151a1e94d
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="upgrade:qgtools" type="js.build_tools.npm" temporary="true">
+=======
+    <configuration name="upgrade:qgtools" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+>>>>>>> ea40a2739812ea6f95d40b55bc0f78b151a1e94d
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="upgrade:qgtools" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.upgrade:qgtools" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="314895c7-903d-440b-8f7e-6711509f10bd" name="更改" comment="" />
+      <created>1706171838573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706171838573</updated>
+      <workItem from="1706171841343" duration="5010000" />
+      <workItem from="1706390939041" duration="3398000" />
+      <workItem from="1706423501263" duration="1269000" />
+      <workItem from="1706425466234" duration="2836000" />
+      <workItem from="1706453365867" duration="1011000" />
+      <workItem from="1706497994040" duration="370000" />
+      <workItem from="1706498521147" duration="100000" />
+      <workItem from="1706498792052" duration="1554000" />
+<<<<<<< HEAD
+      <workItem from="1706500402537" duration="16857000" />
+=======
+      <workItem from="1706527540567" duration="335000" />
+>>>>>>> ea40a2739812ea6f95d40b55bc0f78b151a1e94d
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

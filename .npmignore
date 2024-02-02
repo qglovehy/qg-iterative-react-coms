@@ -1,0 +1,9 @@
+node_modules/
+src/
+config/
+.eslintignore
+.eslintrc.js
+.prettierignore
+.prettierrc.js
+.stylelintignore
+.stylelintrc.js
