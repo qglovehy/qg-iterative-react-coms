@@ -6,7 +6,6 @@ import './styles/normalize.css';
 import './styles/root.scss';
 
 //持久化存储 redux
-
 export { Provider, useDispatch, useSelector } from 'react-redux';
 export { PersistGate } from 'redux-persist/lib/integration/react';
 export { store, persistence } from './store';
