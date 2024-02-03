@@ -1,4 +1,4 @@
-import { onSetState, store } from 'qg-react-components';
+import { onSetState, store } from '@/../../lib';
 
 import { ws } from '@/utils/webSocket';
 

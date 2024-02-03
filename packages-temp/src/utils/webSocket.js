@@ -1,6 +1,7 @@
+import { onSetState, store } from '@/../../lib';
+
 import { Modal } from 'antd';
 import dayjs from 'dayjs';
-import { onSetState, store } from 'qg-react-components';
 
 import protobuf from '@/utils/proto/proto';
 

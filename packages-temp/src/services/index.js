@@ -1,5 +1,6 @@
+import { store } from '@/../../lib';
+
 import { message } from 'antd';
-import { store } from 'qg-react-components';
 
 import { onClearLoginOutTime, setLoading } from '@/utils/pubilc';
 

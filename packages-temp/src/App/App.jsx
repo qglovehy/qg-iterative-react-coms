@@ -1,3 +1,5 @@
+import { initDictData, onResetState, onSetState, useDispatch, useSelector } from '@/../../lib';
+
 import { HappyProvider } from '@ant-design/happy-work-theme';
 import { ConfigProvider, Spin } from 'antd';
 import en_US from 'antd/locale/en_US';
@@ -5,13 +7,6 @@ import zh_CN from 'antd/locale/zh_CN';
 import dayjs from 'dayjs';
 import 'dayjs/locale/es-us';
 import 'dayjs/locale/zh-cn';
-import {
-  initDictData,
-  onResetState,
-  onSetState,
-  useDispatch,
-  useSelector,
-} from 'qg-react-components';
 import React, { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 

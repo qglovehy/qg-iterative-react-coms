@@ -1,4 +1,5 @@
-import { UnNormalCase403, UnNormalCase404, useSelector } from 'qg-react-components';
+import { UnNormalCase403, UnNormalCase404, useSelector } from '@/../../lib';
+
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 

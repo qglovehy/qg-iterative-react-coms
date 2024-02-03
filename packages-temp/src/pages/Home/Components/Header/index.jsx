@@ -1,5 +1,3 @@
-import { DownOutlined, MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
-import { Dropdown, Space } from 'antd';
 import {
   ConditionalRender,
   Intl,
@@ -11,7 +9,10 @@ import {
   useDispatch,
   useMediaQuery,
   useSelector,
-} from 'qg-react-components';
+} from '@/../../lib';
+
+import { DownOutlined, MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
+import { Dropdown, Space } from 'antd';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 

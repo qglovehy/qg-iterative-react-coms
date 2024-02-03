@@ -1,5 +1,6 @@
+import { ConditionalRender, useMediaQuery, useSelector } from '@/../../lib';
+
 import PropTypes from 'prop-types';
-import { ConditionalRender, useMediaQuery, useSelector } from 'qg-react-components';
 import React, { memo, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
