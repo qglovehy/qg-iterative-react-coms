@@ -34,5 +34,5 @@ fix: 3.0.20 webpack排除外部依赖 externals:
     "@ant-design/happy-work-theme": "@ant-design/happy-work-theme",
     "@ant-design/icons": "@ant-design/icons",
     "prop-types": "prop-types",
-},
+}
 ```
