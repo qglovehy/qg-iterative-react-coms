@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import React, { FC, Fragment, ReactElement, useMemo } from 'react';
+import React, { FC, Fragment, useMemo } from 'react';
 import * as ReactIs from 'react-is';
 
 import Divider from './Components/Divider';
