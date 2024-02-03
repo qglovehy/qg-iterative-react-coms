@@ -1,6 +1,7 @@
+import { BaseList, Intl, ProtectedButton } from '@/../../lib';
+
 import { ExclamationCircleOutlined } from '@ant-design/icons';
 import { Form, Input, Modal, message } from 'antd';
-import { BaseList, Intl, ProtectedButton } from 'qg-react-components-lib';
 import React, { useRef, useState } from 'react';
 
 import { requestClearSuperviseUser, requestGetSuperviseUser } from '@/services/black';

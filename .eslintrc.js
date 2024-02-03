@@ -47,7 +47,7 @@ module.exports = {
     'no-spaced-func': 2, // 函数调用时 函数名与()之间不能有空格
     'no-this-before-super': 0, // 在调用super()之前不能使用this或super
     'no-undef': 2, // 不能有未定义的变量
-    'no-use-before-define': 2, // 未定义前不能使用
+    'no-use-before-define': 0, // 未定义前能使用
     'newline-before-return': 2, // 要求 return 语句之前有一空行
     'react/display-name': 0, // 防止在React组件定义中丢失displayName
     'react/forbid-prop-types': [2, { forbid: ['any'] }], // 禁止某些propTypes
