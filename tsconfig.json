@@ -6,7 +6,7 @@
     "baseUrl": "./",
     "module": "ESNext"
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules","packages-temp"],
   "include": [
     "src/**/*"
   ]
