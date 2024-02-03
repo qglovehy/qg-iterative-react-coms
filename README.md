@@ -21,3 +21,18 @@
 我会给大家提供一个比较舒适的开发体验。
 
 fix: 3.0.19 修复国际化自定义输入内容
+fix: 3.0.20 webpack排除外部依赖 externals:
+// 外部依赖，避免将某些 import 的包打包到 bundle 中
+```json
+{
+    "antd": "antd",
+    "moment": "moment",
+    "classnames": "classnames",
+    "react": "react",
+    "react-dom": "react-dom",
+    "react-router-dom": "react-router-dom",
+    "@ant-design/happy-work-theme": "@ant-design/happy-work-theme",
+    "@ant-design/icons": "@ant-design/icons",
+    "prop-types": "prop-types",
+},
+```
