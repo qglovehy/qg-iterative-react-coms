@@ -18,21 +18,11 @@
 
 组件库文档和示例项目的开发正在进行中。
 
-我会给大家提供一个比较舒适的开发体验。
+示例项目源码（包含了构建工具源码、组件库源码）：
+https://gitee.com/qglove/qg-iterative-react-temp.git
 
-fix: 3.0.19 修复国际化自定义输入内容
-fix: 3.0.20 webpack排除外部依赖 externals:
-// 外部依赖，避免将某些 import 的包打包到 bundle 中
-```json
-{
-    "antd": "antd",
-    "moment": "moment",
-    "classnames": "classnames",
-    "react": "react",
-    "react-dom": "react-dom",
-    "react-router-dom": "react-router-dom",
-    "@ant-design/happy-work-theme": "@ant-design/happy-work-theme",
-    "@ant-design/icons": "@ant-design/icons",
-    "prop-types": "prop-types",
-}
-```
+组件库源码(使用自定义构建工具打包)：
+https://gitee.com/qglove/qg-iterative-react-coms.git
+
+自定义构建工具源码：
+https://github.com/qglovehy/qg-iterative-web-build.git
