@@ -6,9 +6,9 @@ interface IPayloadProps {
 }
 
 const value = {
-  currentIntl: 'zh_CN', //国际化
-
   dict: null, //字典
+
+  token: null,
 
   antdTheme: {
     token: {
@@ -28,6 +28,8 @@ const value = {
   projectTheme: {
     colorPrimary: '#1677ff',
   }, //自定义主题
+  componentSize: 'middle', //组件尺寸
+  direction: 'ltr', //组件位置
 };
 
 export const counter = createSlice({
@@ -53,12 +55,27 @@ export const counter = createSlice({
     //设置主题
     setAntdTheme: (state: any, action: IPayloadProps) => {
       const colorPrimary = action.payload?.colorPrimary;
+      const borderRadius = action.payload?.borderRadius;
+      const componentSize = action.payload?.componentSize;
+      const direction = action.payload?.direction;
 
       if (colorPrimary) {
         state.value.antdTheme.token.colorPrimary = colorPrimary;
         state.value.antdTheme.components.Button.colorPrimary = colorPrimary;
 
         state.value.projectTheme.colorPrimary = colorPrimary;
+      }
+
+      if (borderRadius) {
+        state.value.antdTheme.token.borderRadius = borderRadius;
+      }
+
+      if (componentSize) {
+        state.value.componentSize = componentSize;
+      }
+
+      if (direction) {
+        state.value.direction = direction;
       }
     },
   },

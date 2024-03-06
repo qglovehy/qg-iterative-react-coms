@@ -24,7 +24,6 @@ interface CounterState {
     username: string;
     roleType: string;
     dict: Array<Map<any, any>>; // 请替换 any 以反映 Map 的键和值的实际类型
-    currentIntl: string;
     currentMenuItem: string;
     collapsed: boolean;
     menuWidth: number;

@@ -1,11 +1,7 @@
-//组件库内置雪碧图svg
-import './assets';
-
-//公共样式
-import './styles/normalize.css';
-import './styles/root.scss';
 
 //持久化存储 redux
+import { createContext } from 'react';
+
 export { Provider, useDispatch, useSelector } from 'react-redux';
 export { PersistGate } from 'redux-persist/lib/integration/react';
 export { store, persistence } from './store';
@@ -16,6 +12,14 @@ export {
   onSetState,
   setAntdTheme,
 } from './store/counter';
+
+//组件库内置雪碧图svg
+import './assets';
+
+//公共样式
+import './styles/normalize.css';
+import './styles/root.scss';
+
 
 //初始化字典
 export { initDictData, Dict } from './utils/dictionaryData';
@@ -51,3 +55,6 @@ export { default as UnNormalCase500 } from './components/UnNormalCase/Error_500'
 
 //WangEditor
 export { default as WangEditorFrame } from './components/WangEditorFrame';
+
+// 创建一个Context
+export const MessageContext = createContext(null);
