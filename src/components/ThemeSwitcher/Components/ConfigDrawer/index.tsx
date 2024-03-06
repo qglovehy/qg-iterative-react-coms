@@ -1,56 +1,18 @@
 import { BgColorsOutlined } from '@ant-design/icons';
-import { Drawer, Form, Radio, Tooltip } from 'antd';
+import { Drawer, Form, InputNumber, message } from 'antd';
 import React, { FC, useLayoutEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { setAntdTheme } from '@/store/counter';
 import { IRootStateProps } from '@/store/types';
 
-import Intl from '../../../Intl';
+import { FormComponents } from '@/components/system';
+
 import ProtectedButton from '../../../ProtectedButton';
 import { IConfigDrawerProps } from './types';
 
 //@ts-ignore
 import styles from './index.scss';
-
-const colorPrimary = [
-  {
-    label: '暗黑',
-    value: '#001529',
-  },
-  {
-    label: '拂晓',
-    value: '#1677ff',
-  },
-  {
-    label: '薄暮',
-    value: '#f5222d',
-  },
-  {
-    label: '火山',
-    value: '#fa541c',
-  },
-  {
-    label: '日暮',
-    value: '#faad14',
-  },
-  {
-    label: '明清',
-    value: '#13c2c2',
-  },
-  {
-    label: '极光',
-    value: '#52c41a',
-  },
-  {
-    label: '极客',
-    value: '#2f54eb',
-  },
-  {
-    label: '酱紫',
-    value: '#722ed1',
-  },
-];
 
 const ConfigDrawer: FC<IConfigDrawerProps> = ({
   open = false,
@@ -65,7 +27,7 @@ const ConfigDrawer: FC<IConfigDrawerProps> = ({
   const dispatch = useDispatch();
 
   //提交
-  const onFinish = (colorPrimary: any) => dispatch(setAntdTheme(colorPrimary));
+  const onFinish = (theme: any) => dispatch(setAntdTheme(theme));
 
   const onFinishFailed = (errorInfo: any) => {
     console.error('ThemeChangeFormFailed:', errorInfo);
@@ -83,28 +45,25 @@ const ConfigDrawer: FC<IConfigDrawerProps> = ({
       <Drawer onClose={onClose} open={open} placement="right" title="主题设置">
         <Form
           autoComplete="off"
-          initialValues={{
-            colorPrimary: colorPrimary[0].value,
-          }}
           layout="vertical"
-          name="basic"
+          name="theme"
           onFinish={onFinish}
           onFinishFailed={onFinishFailed}
         >
           <Form.Item label="主题色: " name="colorPrimary">
-            <Radio.Group buttonStyle="solid">
-              {colorPrimary?.map?.((item) => (
-                <Tooltip key={item.value} placement="top" title={Intl.v(item.label)}>
-                  <Radio.Button
-                    style={{
-                      background: item.value,
-                      padding: '0px 20px',
-                    }}
-                    value={item.value}
-                  ></Radio.Button>
-                </Tooltip>
-              ))}
-            </Radio.Group>
+            <FormComponents init="SystemPrimaryColor" type="radio" />
+          </Form.Item>
+
+          <Form.Item label="组件方向: " name="direction">
+            <FormComponents init="SystemDirection" type="radio" />
+          </Form.Item>
+
+          <Form.Item label="组件尺寸: " name="componentSize">
+            <FormComponents init="SystemComponentSize" type="radio" />
+          </Form.Item>
+
+          <Form.Item label="圆角大小: " name="borderRadius">
+            <InputNumber style={{ width: '100%' }} />
           </Form.Item>
 
           <Form.Item
