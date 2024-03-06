@@ -7737,10 +7737,10 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://mirrors.huaweicloud.com/repository/npm/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"
   integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
-qgtools@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.npmjs.org/qgtools/-/qgtools-1.0.11.tgz#49d301f5ba17ad5f8be3e34c5abcb4aebccfb8cc"
-  integrity sha512-XwZO/v9Vd4hWGRSQiEOcpn6gBynS9AaDPsurAsXzkciLm6zT+iqZI1NNcrMTvebON1GcbHsESdLlRHZH0hYPOg==
+qgtools@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.npmjs.org/qgtools/-/qgtools-1.0.12.tgz#628488a390b4b98829e873a019abfa7bacb20942"
+  integrity sha512-2Zh1Ocr1iRiYG2ybUy/qzDOCXtunIpFIFGM3R+bFtcMUE0cbIbxl+qEUawMzgdBUhfrDgL5V6gZDRtT30PeA5A==
   dependencies:
     "@babel/core" "^7.19.1"
     "@babel/eslint-parser" "^7.23.3"
