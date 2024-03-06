@@ -1,7 +1,5 @@
 import intl from 'react-intl-universal';
 
-import { store } from '@/components/system';
-
 import en_US_List from './locales/en_US';
 import zh_CN_List from './locales/zh_CN';
 

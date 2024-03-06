@@ -21,7 +21,6 @@ interface CounterState {
         username: string;
         roleType: string;
         dict: Array<Map<any, any>>;
-        currentIntl: string;
         currentMenuItem: string;
         collapsed: boolean;
         menuWidth: number;

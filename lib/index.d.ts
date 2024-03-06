@@ -22,6 +22,7 @@ export { default as UnNormalCase403 } from "./components/UnNormalCase/Error_403"
 export { default as UnNormalCase404 } from "./components/UnNormalCase/Error_404";
 export { default as UnNormalCase500 } from "./components/UnNormalCase/Error_500";
 export { default as WangEditorFrame } from "./components/WangEditorFrame";
+export const MessageContext: import("react").Context<null>;
 export { Provider, useDispatch, useSelector } from "react-redux";
 export { store, persistence } from "./store";
 export { default as QGIterativeReducer, onResetState, onSetState, setAntdTheme } from "./store/counter";

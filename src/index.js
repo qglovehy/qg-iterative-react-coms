@@ -1,6 +1,12 @@
-
 //持久化存储 redux
 import { createContext } from 'react';
+
+//组件库内置雪碧图svg
+import './assets';
+
+//公共样式
+import './styles/normalize.css';
+import './styles/root.scss';
 
 export { Provider, useDispatch, useSelector } from 'react-redux';
 export { PersistGate } from 'redux-persist/lib/integration/react';
@@ -12,14 +18,6 @@ export {
   onSetState,
   setAntdTheme,
 } from './store/counter';
-
-//组件库内置雪碧图svg
-import './assets';
-
-//公共样式
-import './styles/normalize.css';
-import './styles/root.scss';
-
 
 //初始化字典
 export { initDictData, Dict } from './utils/dictionaryData';

@@ -73,7 +73,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unicorn": "^50.0.1",
     "prettier": "^2.4.1",
-    "qgtools": "^1.0.8",
+    "qgtools": "^1.0.11",
     "lottie-web": "^5.12.2",
     "protobufjs": "^6.11.2"
   },

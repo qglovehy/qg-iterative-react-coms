@@ -1,6 +1,6 @@
 export interface IBaseListProps {
     isEditTable: boolean;
-    handleSaveCallBack: () => void;
+    handleSaveCallBack: (a: any) => void;
     serviceFunc: (a: any, b: any) => void;
     functionControlTableTitle: string;
     columns: any[];

@@ -26,7 +26,9 @@ const persistence = persistStore(store);
 
 //添加一个容易查看的redux
 try {
-  window['get_redux_value'] = () =>
+  // @ts-ignore
+  window.get_redux_value = () =>
+    // @ts-ignore
     JSON.parse(JSON.parse(localStorage.getItem('persist:qg-iterative-react-redux-local')).counter)
       .value;
 } catch (e) {

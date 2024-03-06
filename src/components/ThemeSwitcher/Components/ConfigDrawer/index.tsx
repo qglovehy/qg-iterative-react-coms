@@ -6,8 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setAntdTheme } from '@/store/counter';
 import { IRootStateProps } from '@/store/types';
 
-import { FormComponents } from '@/components/system';
-
+import FormComponents from '../../../FormComponents';
 import ProtectedButton from '../../../ProtectedButton';
 import { IConfigDrawerProps } from './types';
 

@@ -4,8 +4,8 @@ interface IPayloadProps {
 }
 export declare const counter: import("@reduxjs/toolkit").Slice<{
     value: {
-        currentIntl: string;
         dict: null;
+        token: null;
         antdTheme: {
             token: {
                 colorPrimary: string;
@@ -24,6 +24,8 @@ export declare const counter: import("@reduxjs/toolkit").Slice<{
         projectTheme: {
             colorPrimary: string;
         };
+        componentSize: string;
+        direction: string;
     };
 }, {
     onSetState: (state: any, action: IPayloadProps) => void;
@@ -33,8 +35,8 @@ export declare const counter: import("@reduxjs/toolkit").Slice<{
 export declare const onSetState: import("@reduxjs/toolkit").ActionCreatorWithPayload<any, "counter/onSetState">, setAntdTheme: import("@reduxjs/toolkit").ActionCreatorWithPayload<any, "counter/setAntdTheme">, onResetState: import("@reduxjs/toolkit").ActionCreatorWithoutPayload<"counter/onResetState">;
 declare const _default: import("redux").Reducer<{
     value: {
-        currentIntl: string;
         dict: null;
+        token: null;
         antdTheme: {
             token: {
                 colorPrimary: string;
@@ -53,6 +55,8 @@ declare const _default: import("redux").Reducer<{
         projectTheme: {
             colorPrimary: string;
         };
+        componentSize: string;
+        direction: string;
     };
 }>;
 export default _default;

@@ -4,8 +4,8 @@
 declare const store: import("redux").Store<import("redux").EmptyObject & {
     counter: {
         value: {
-            currentIntl: string;
             dict: null;
+            token: null;
             antdTheme: {
                 token: {
                     colorPrimary: string;
@@ -24,6 +24,8 @@ declare const store: import("redux").Store<import("redux").EmptyObject & {
             projectTheme: {
                 colorPrimary: string;
             };
+            componentSize: string;
+            direction: string;
         };
     };
 } & import("redux-persist/es/persistReducer").PersistPartial, import("redux").AnyAction>;

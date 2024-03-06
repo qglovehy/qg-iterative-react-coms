@@ -1,5 +1,5 @@
-import { FC } from 'react';
-import { IConditionalRenderProps, IConditionalRenderShowProps } from './types';
+import type { FC } from 'react';
+import type { IConditionalRenderProps, IConditionalRenderShowProps } from './types';
 declare const ConditionalRender: FC<IConditionalRenderProps> & {
     Show: FC<IConditionalRenderShowProps>;
 };
