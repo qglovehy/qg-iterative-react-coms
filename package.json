@@ -1,10 +1,10 @@
 {
   "name": "qg-react-components",
   "main": "lib/index.js",
-  "version": "3.0.30",
+  "version": "3.0.31",
   "description": "React通用组件库，内测中",
   "scripts": {
-    "qgbuild": "qgtools packageapp"
+    "qgbuild": "rimraf ./lib && qgtools packageapp"
   },
   "lint-staged": {
     "**/*.less": "stylelint --syntax less",
@@ -72,7 +72,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unicorn": "^50.0.1",
     "prettier": "^2.4.1",
-    "qgtools": "^1.0.18",
+    "qgtools": "^1.0.19",
     "lottie-web": "^5.12.2",
     "protobufjs": "^6.11.2"
   },
