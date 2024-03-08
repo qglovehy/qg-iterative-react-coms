@@ -24,11 +24,11 @@ http://103.117.121.53:8001/
 示例项目源码（包含了构建工具源码、组件库源码）：
 https://gitee.com/qglove/qg-iterative-react-temp.git
 
-组件库源码：
+组件库源码(使用自定义构建工具打包)：
 https://gitee.com/qglove/qg-iterative-react-coms.git
 
 自定义构建工具源码：
-https://github.com/qglovehy/qg-iterative-web-build.git
+https://gitee.com/qglove/qg-iterative-web-build.git
 
 #### Git 提交规范
 
