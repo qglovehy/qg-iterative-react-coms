@@ -6,6 +6,8 @@ import '@/assets';
 export { Provider, useDispatch, useSelector } from 'react-redux';
 export { PersistGate } from 'redux-persist/lib/integration/react';
 
+export type { IRootStateProps } from '@/store/types';
+
 export { onResetState, onSetState, setAntdTheme } from '@/store/counter';
 
 export { store, persistence } from '@/store';

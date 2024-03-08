@@ -5,6 +5,8 @@ import './assets';
 import './styles/normalize.css';
 import './styles/root.scss';
 
+export type { IRootStateProps } from './components/system';
+
 export { Provider, useDispatch, useSelector } from './components/system';
 export { PersistGate } from './components/system';
 export { store, persistence } from './components/system';
