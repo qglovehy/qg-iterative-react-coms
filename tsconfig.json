@@ -4,7 +4,10 @@
     "declarationDir": "./lib",
     "outDir": "./lib",
     "baseUrl": "./",
-    "module": "ESNext"
+    "module": "ESNext",
+    "paths": {
+      "@/*": ["src/*"], // 这里将 @ 指向 src 目录
+    }
   },
   "exclude": ["node_modules","packages-temp"],
   "include": [

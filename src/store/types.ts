@@ -38,7 +38,7 @@ interface CounterState {
   };
 }
 
-// 如果您有一个根状态包含多个 reducers
+// 在 @/store/types 文件中
 export interface IRootStateProps {
   counter: CounterState;
 }

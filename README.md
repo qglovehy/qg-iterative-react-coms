@@ -3,6 +3,8 @@
 `qg-react-components` 是一个基于React18.2 Antd5.x、Redux的公共组件库，是在做项目过程中慢慢沉淀出来的。
 虽然不多，但是项目的核心组件，和广泛使用的组件都在其中。
 
+添加表格多选支持
+
 目前包含： 
 1. 查询表格、可编辑单元格的查询表格： [BaseList](src%2Fcomponents%2FBaseList) 
 2. 条件渲染（支持 .Show）：[ConditionalRender](src%2Fcomponents%2FConditionalRender)
