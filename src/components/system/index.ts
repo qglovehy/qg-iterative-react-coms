@@ -8,9 +8,9 @@ export { PersistGate } from 'redux-persist/lib/integration/react';
 
 export type { IRootStateProps } from '@/store/types';
 
-export { onResetState, onSetState, setAntdTheme } from '@/store/counter';
+export { onResetState, onSetState, setAntdTheme } from '@/store/counter'; //自定义状态函数
 
-export { store, persistence } from '@/store';
+export { store, persistence } from '@/store'; //Redux
 
 export { default as Intl } from './Intl'; //初始化国际化
 export { default as IntlDropdown } from './Intl/Components/IntlDropdown'; //国际化组价
