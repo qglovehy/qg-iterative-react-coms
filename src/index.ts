@@ -9,6 +9,7 @@ export type { IRootStateProps } from './components/system';
 
 //公共组件
 export {
+  dayjs,
   Provider,
   useDispatch,
   useSelector,

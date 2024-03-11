@@ -2,7 +2,6 @@ import { CheckCircleTwoTone, CloseCircleTwoTone, EditTwoTone } from '@ant-design
 import { DatePicker, Form, Input, Space, Table } from 'antd';
 import { FormInstance } from 'antd';
 import classNames from 'classnames';
-import dayjs from 'dayjs';
 import React, {
   FC,
   ForwardRefRenderFunction,
@@ -20,6 +19,7 @@ import {
   ConditionalRender,
   FormComponents,
   WangEditorFrame,
+  dayjs,
   useSelector,
 } from '@/components/system';
 

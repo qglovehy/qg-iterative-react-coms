@@ -2,6 +2,8 @@
 import '@/assets';
 
 //==========================组件库组件===================================================
+export { default as dayjs } from 'dayjs';
+
 //持久化存储 redux
 export { Provider, useDispatch, useSelector } from 'react-redux';
 export { PersistGate } from 'redux-persist/lib/integration/react';
