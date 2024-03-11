@@ -1,5 +1,6 @@
 /// <reference types="redux-persist/types/integration/react" />
 import '@/assets';
+export { default as dayjs } from 'dayjs';
 export { Provider, useDispatch, useSelector } from 'react-redux';
 export { PersistGate } from 'redux-persist/lib/integration/react';
 export type { IRootStateProps } from '@/store/types';
