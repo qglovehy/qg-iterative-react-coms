@@ -2,10 +2,9 @@ import { BgColorsOutlined } from '@ant-design/icons';
 import { Drawer, Form, InputNumber } from 'antd';
 import React, { FC, useLayoutEffect } from 'react';
 
-import { IRootStateProps } from '@/store/types';
-
 import {
   FormComponents,
+  IRootStateProps,
   ProtectedButton,
   setAntdTheme,
   useDispatch,

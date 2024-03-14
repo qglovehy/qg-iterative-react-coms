@@ -4,9 +4,7 @@ import classNames from 'classnames';
 import React, { FC, useMemo } from 'react';
 import { useSelector } from 'react-redux';
 
-import { IRootStateProps } from '@/store/types';
-
-import { ConditionalRender } from '@/components/system';
+import { ConditionalRender, IRootStateProps } from '@/components/system';
 
 import { IBreadcrumbNavProps } from './types';
 
