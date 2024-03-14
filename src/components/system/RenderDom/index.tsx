@@ -6,10 +6,10 @@ import { IRenderDomProps } from './types';
 //@ts-ignore
 import styles from './index.scss';
 
-const RenderDom: FC<IRenderDomProps> = ({ dom, className = '', style = {} }) => (
+const RenderDom: FC<IRenderDomProps> = ({ dom = '', className = '', style = {} }) => (
   <div
     className={classNames(styles.RenderDomIndex, className)}
-    dangerouslySetInnerHTML={{ __html: dom.replace(/<script>/g, '') }}
+    dangerouslySetInnerHTML={{ __html: dom?.replace(/<script>/g, '') || '' }}
     style={style}
   />
 );
