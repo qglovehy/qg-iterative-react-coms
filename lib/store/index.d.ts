@@ -1,4 +1,4 @@
-/// <reference types="redux-persist/types/persistreducer" />
+/// <reference types="redux-persist/types/persistReducer" />
 /// <reference types="redux-persist/types/types" />
 /// <reference types="redux-persist" />
 declare const store: import("redux").Store<import("redux").EmptyObject & {
