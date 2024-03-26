@@ -45,4 +45,6 @@ export {
   UnNormalCase404,
   UnNormalCase500,
   WangEditorFrame,
+  useElectron,
+  onMergeState,
 } from './components/system';
