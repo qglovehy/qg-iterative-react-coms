@@ -3,6 +3,7 @@
 `qg-react-components` 是一个基于React18.2 Antd5.x、Redux的公共组件库，是在做项目过程中慢慢沉淀出来的。
 虽然不多，但是项目的核心组件，和广泛使用的组件都在其中。
 
+3.1.11 feat: 添加redux onMergeState 合并动态属性
 3.1.10 fix: 配合测试map  测试完毕 可以定位到具体位置
 3.1.7 fix: 配合测试map  请跳过这个版本
 3.1.6 fix: 打包器测试map

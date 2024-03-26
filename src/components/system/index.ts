@@ -10,7 +10,7 @@ export { PersistGate } from 'redux-persist/lib/integration/react';
 
 export type { IRootStateProps } from '@/store/types';
 
-export { onResetState, onSetState, setAntdTheme } from '@/store/counter'; //自定义状态函数
+export { onResetState, onSetState, setAntdTheme, onMergeState } from '@/store/counter'; //自定义状态函数
 
 export { store, persistence } from '@/store'; //Redux
 
@@ -19,7 +19,7 @@ export { default as IntlDropdown } from './Intl/Components/IntlDropdown'; //国�
 
 export { initDictData, Dict } from '@/utils/dictionaryData'; //初始化字典
 
-export { useSetState, useMediaQuery } from '@/hooks'; //自定义钩子
+export { useSetState, useMediaQuery, useElectron } from '@/hooks'; //自定义钩子
 
 export { default as BaseList } from './BaseList'; //基础查询表格
 export { default as ListBody } from './BaseList/Components/ListBody'; //基础查询表格体

@@ -36,6 +36,17 @@ export const counter = createSlice({
   name: 'counter',
   initialState: { value },
   reducers: {
+    //合并State
+    onMergeState: (state: any, action: IPayloadProps) => {
+      if (action.payload === undefined) return;
+
+      Object.keys(action.payload)?.forEach((item) => {
+        if (state.value[item] === void 0) {
+          state.value[item] = action.payload[item];
+        }
+      });
+    },
+
     //存储State
     onSetState: (state: any, action: IPayloadProps) => {
       if (action.payload === undefined) return;
@@ -81,6 +92,6 @@ export const counter = createSlice({
   },
 });
 
-export const { onSetState, setAntdTheme, onResetState } = counter.actions;
+export const { onSetState, setAntdTheme, onResetState, onMergeState } = counter.actions;
 
 export default counter.reducer;
