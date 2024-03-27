@@ -2,9 +2,8 @@ import { CaretRightOutlined } from '@ant-design/icons';
 import { Space } from 'antd';
 import classNames from 'classnames';
 import React, { FC, useMemo } from 'react';
-import { useSelector } from 'react-redux';
 
-import { ConditionalRender, IRootStateProps } from '@/components/system';
+import { ConditionalRender, IRootStateProps, useSelector } from '@/components/system';
 
 import { IBreadcrumbNavProps } from './types';
 
