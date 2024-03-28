@@ -80,6 +80,8 @@ export const counter = createSlice({
 
       if (borderRadius) {
         state.value.antdTheme.token.borderRadius = borderRadius;
+
+        state.value.projectTheme.borderRadiusWidth = borderRadius + 'px';
       }
 
       if (componentSize) {
