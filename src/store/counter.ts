@@ -27,6 +27,7 @@ const value = {
   }, //antd主题
   projectTheme: {
     colorPrimary: '#1677ff',
+    borderRadiusWidth: '4px',
   }, //自定义主题
   componentSize: 'middle', //组件尺寸
   direction: 'ltr', //组件位置

@@ -2,8 +2,9 @@ import { CaretRightOutlined } from '@ant-design/icons';
 import { Space } from 'antd';
 import classNames from 'classnames';
 import React, { FC, useMemo } from 'react';
+import { useSelector } from 'react-redux';
 
-import { ConditionalRender, IRootStateProps, useSelector } from '@/components/system';
+import { ConditionalRender, IRootStateProps } from '@/components/system';
 
 import { IBreadcrumbNavProps } from './types';
 
@@ -27,7 +28,7 @@ const BreadcrumbNav: FC<IBreadcrumbNavProps> = ({
         ),
       },
       ...breadcrumb.reduce((acc, current) => {
-        if (acc.findIndex((item) => item.title === current.title) === -1) {
+        if (acc.findIndex((item: { title: any }) => item.title === current.title) === -1) {
           acc.push(current);
         }
 

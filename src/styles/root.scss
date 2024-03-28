@@ -6,7 +6,13 @@
   --normal-box-shadom: unset; /* 基础阴影 */
 
   --primary-color: #1677ff; /* 主题颜色 */
+  --primary-cover-color: #1677ff66; /* 主题颜色衬色 */
   --progress-success-color: #87d068; /* 渐变进度条100%颜色 */
+
+  --progress-suc-color: #008000ff; /* 进度条成功颜色 */
+  --progress-active-color: #ffa500; /* 进度条进行中颜色 */
+  --progress-wait-color: rgba(255, 255, 255, 1); /* 进度条等待颜色 */
+  --progress-error-color: #dc1212ff; /* 进度条错误颜色 */
 
   --font-1-color: rgba(255, 255, 255, 1); /* 一级字体颜色 */
   --font-2-color: rgba(51, 51, 51, 1); /* 二级字体颜色 */
@@ -23,7 +29,18 @@
   --card-color: rgba(255, 255, 255, 1); /* 卡片色 */
   --split-color: rgba(0, 0, 0, 0.08); /* 分割线颜色 */
 
+  --bg-color: rgba(26, 26, 26, 1); /* 背景颜色 */
+  --bg-245-color: rgba(245, 245, 245, 1); /* 背景颜色 */
+  --bg-240-color: rgba(240, 240, 240, 1); /* 背景颜色 */
+  --bg-30-color: rgba(30, 30, 30, 1); /* 背景颜色 */
+
+  --font-gray-4-color: rgba(189, 189, 189, 1); /* 灰色字体颜色 */
+  --font-gray-5-color: rgba(224, 224, 224, 1); /* 灰色字体颜色 */
+  --font-gray-6-color: rgba(242, 242, 242, 1); /* 灰色字体颜色 */
+
   --base-list-content-padding: 15px;
+
+  --border-radius-size: 4px; /* 全局圆角 */
 
   /* 通用透明颜色 */
   --be-common-0-color: rgba(255, 255, 255, 0);

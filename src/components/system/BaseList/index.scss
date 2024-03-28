@@ -34,7 +34,7 @@
         padding: 2px 5px;
         color: #fff;
         background-color: var(--primary-color);
-        border-radius: 5px;
+        border-radius: var(--border-radius-size);
 
         span {
           color: currentColor;

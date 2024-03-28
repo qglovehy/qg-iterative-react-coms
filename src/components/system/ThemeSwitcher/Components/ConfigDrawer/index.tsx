@@ -1,6 +1,7 @@
-import { BgColorsOutlined } from '@ant-design/icons';
 import { Drawer, Form, InputNumber } from 'antd';
 import React, { FC, useLayoutEffect } from 'react';
+
+import { BgColorsOutlined } from '@ant-design/icons';
 
 import {
   FormComponents,
@@ -21,7 +22,7 @@ const ConfigDrawer: FC<IConfigDrawerProps> = ({
   onClose = () => null,
   showConfigDrawer = () => null,
 }) => {
-  const { colorPrimary: rootColorPrimary } = useSelector(
+  const { colorPrimary: rootColorPrimary, borderRadiusWidth: rootBorderRadiusWidth } = useSelector(
     (state: IRootStateProps) => state.counter.value.projectTheme,
   );
 
@@ -35,16 +36,22 @@ const ConfigDrawer: FC<IConfigDrawerProps> = ({
     console.error('ThemeChangeFormFailed:', errorInfo);
   };
 
-  //修改主题颜色
+  //修改主题颜色 和衬色
   useLayoutEffect(() => {
     document.documentElement.style.setProperty('--primary-color', rootColorPrimary);
+    document.documentElement.style.setProperty('--primary-cover-color', `${rootColorPrimary}66`);
   }, [rootColorPrimary]);
+
+  //修改圆角
+  useLayoutEffect(() => {
+    document.documentElement.style.setProperty('--border-radius-size', rootBorderRadiusWidth);
+  }, [rootBorderRadiusWidth]);
 
   return (
     <div className={styles.Index}>
       <BgColorsOutlined onClick={showConfigDrawer} />
 
-      <Drawer onClose={onClose} open={open} placement="right" title="主题设置">
+      <Drawer closable={false} onClose={onClose} open={open} placement="right" title="主题设置">
         <Form
           autoComplete="off"
           layout="vertical"

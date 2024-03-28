@@ -16,6 +16,7 @@ interface AntdTheme {
 
 interface ProjectTheme {
   colorPrimary: string;
+  borderRadiusWidth: string;
 }
 
 interface CounterState {
@@ -38,7 +39,7 @@ interface CounterState {
   };
 }
 
-// 在 @/store/types 文件中
+// 如果您有一个根状态包含多个 reducers
 export interface IRootStateProps {
   counter: CounterState;
 }

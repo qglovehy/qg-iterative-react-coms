@@ -9,6 +9,10 @@ export const state = {
   loadingText: '', //loading文本
   openMenuDraw: false, //是否打开菜单抽屉
   socketId: null, //websocket通信id
+  os: null, //操作系统位数
+  mac: null, //主机MAC地址
+  configInfo: null, //软件配置信息
+  isWinSizeMax: false, //是否最大化
 };
 
 //预设状态

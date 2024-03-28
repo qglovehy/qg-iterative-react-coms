@@ -5,7 +5,7 @@
   margin-bottom: 20px;
   padding: 20px;
   background-color: var(--card-color);
-  border-radius: 10px;
+  border-radius: var(--border-radius-size);
   box-shadow: var(--normal-box-shadom);
 
   .FunctionControlTableHeader {

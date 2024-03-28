@@ -39,5 +39,6 @@ export { default as UnNormalCase403 } from './UnNormalCase/Error_403'; //错误�
 export { default as UnNormalCase404 } from './UnNormalCase/Error_404'; //错误页面404
 export { default as UnNormalCase500 } from './UnNormalCase/Error_500'; //错误页面500
 export { default as DriverGroup } from './DriverGroup'; //自定义分割组
+export { default as FloatButton } from './FloatButton'; //自定义悬浮按钮
 export { default as Svg } from './Svg'; //Svg雪碧图配合插件
 export { default as EditTableListBody } from './BaseList/Components/EditTableListBody'; //可编辑查询表格体

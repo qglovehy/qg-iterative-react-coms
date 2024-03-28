@@ -47,4 +47,5 @@ export {
   WangEditorFrame,
   useElectron,
   onMergeState,
+  FloatButton,
 } from './components/system';

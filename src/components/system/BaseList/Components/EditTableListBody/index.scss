@@ -62,7 +62,7 @@
   .EditableCellValueWrap:hover {
     padding: 4px 11px;
     border: 1px solid var(--primary-color);
-    border-radius: 5px;
+    border-radius: var(--border-radius-size);
 
     .EditableCellValueWrapIconActive {
       display: inline-block;
